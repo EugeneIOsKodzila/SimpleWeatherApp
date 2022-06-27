@@ -15,6 +15,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         label.text = "ready!"
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
