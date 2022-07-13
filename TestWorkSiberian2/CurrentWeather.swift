@@ -19,7 +19,7 @@ struct WeatherData: Decodable {
                             conditionId: weather.first?.id ?? 0,
                             conditionDescription: weather.first?.description ?? "",
                             pressure: main.pressure,
-                            dt:dt)
+                            dt: dt)
     }
 }
 
