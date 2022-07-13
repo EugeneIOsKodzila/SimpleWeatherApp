@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E197E8C286EDFD70025ED99 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E197E8B286EDFD70025ED99 /* CurrentWeather.swift */; };
+		6E448658286CA5FD00D7F40A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E448657286CA5FD00D7F40A /* NetworkService.swift */; };
 		6EF3F7012869F59200AC81F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3F7002869F59200AC81F9 /* AppDelegate.swift */; };
 		6EF3F7032869F59200AC81F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3F7022869F59200AC81F9 /* SceneDelegate.swift */; };
 		6EF3F7052869F59200AC81F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3F7042869F59200AC81F9 /* ViewController.swift */; };
@@ -14,9 +16,12 @@
 		6EF3F70B2869F59200AC81F9 /* TestWorkSiberian2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3F7092869F59200AC81F9 /* TestWorkSiberian2.xcdatamodeld */; };
 		6EF3F70D2869F59600AC81F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3F70C2869F59600AC81F9 /* Assets.xcassets */; };
 		6EF3F7102869F59600AC81F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3F70E2869F59600AC81F9 /* LaunchScreen.storyboard */; };
+		FBF5ACF8554FB55A34946418 /* Pods_TestWorkSiberian2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9354318317870C7542B43A3D /* Pods_TestWorkSiberian2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E197E8B286EDFD70025ED99 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		6E448657286CA5FD00D7F40A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		6EF3F6FD2869F59200AC81F9 /* TestWorkSiberian2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWorkSiberian2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF3F7002869F59200AC81F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EF3F7022869F59200AC81F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,9 @@
 		6EF3F70C2869F59600AC81F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EF3F70F2869F59600AC81F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EF3F7112869F59600AC81F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819C57AD269CF6575272D80E /* Pods-TestWorkSiberian2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWorkSiberian2.release.xcconfig"; path = "Target Support Files/Pods-TestWorkSiberian2/Pods-TestWorkSiberian2.release.xcconfig"; sourceTree = "<group>"; };
+		9354318317870C7542B43A3D /* Pods_TestWorkSiberian2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestWorkSiberian2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE97330B8D0E88A7F221076A /* Pods-TestWorkSiberian2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWorkSiberian2.debug.xcconfig"; path = "Target Support Files/Pods-TestWorkSiberian2/Pods-TestWorkSiberian2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF5ACF8554FB55A34946418 /* Pods_TestWorkSiberian2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26B89D80E0623CD016BDD092 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE97330B8D0E88A7F221076A /* Pods-TestWorkSiberian2.debug.xcconfig */,
+				819C57AD269CF6575272D80E /* Pods-TestWorkSiberian2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6EF3F6F42869F59200AC81F9 = {
 			isa = PBXGroup;
 			children = (
 				6EF3F6FF2869F59200AC81F9 /* TestWorkSiberian2 */,
 				6EF3F6FE2869F59200AC81F9 /* Products */,
+				26B89D80E0623CD016BDD092 /* Pods */,
+				DC9018C2FF07E21F050A77C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +81,8 @@
 				6EF3F7002869F59200AC81F9 /* AppDelegate.swift */,
 				6EF3F7022869F59200AC81F9 /* SceneDelegate.swift */,
 				6EF3F7042869F59200AC81F9 /* ViewController.swift */,
+				6E448657286CA5FD00D7F40A /* NetworkService.swift */,
+				6E197E8B286EDFD70025ED99 /* CurrentWeather.swift */,
 				6EF3F7062869F59200AC81F9 /* Main.storyboard */,
 				6EF3F70C2869F59600AC81F9 /* Assets.xcassets */,
 				6EF3F70E2869F59600AC81F9 /* LaunchScreen.storyboard */,
@@ -70,6 +92,14 @@
 			path = TestWorkSiberian2;
 			sourceTree = "<group>";
 		};
+		DC9018C2FF07E21F050A77C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9354318317870C7542B43A3D /* Pods_TestWorkSiberian2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EF3F7142869F59600AC81F9 /* Build configuration list for PBXNativeTarget "TestWorkSiberian2" */;
 			buildPhases = (
+				12FD825D1BC3A0C7D8381FC7 /* [CP] Check Pods Manifest.lock */,
 				6EF3F6F92869F59200AC81F9 /* Sources */,
 				6EF3F6FA2869F59200AC81F9 /* Frameworks */,
 				6EF3F6FB2869F59200AC81F9 /* Resources */,
+				B3608E629C64722DFB441826 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,14 +168,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12FD825D1BC3A0C7D8381FC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestWorkSiberian2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3608E629C64722DFB441826 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestWorkSiberian2/Pods-TestWorkSiberian2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestWorkSiberian2/Pods-TestWorkSiberian2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestWorkSiberian2/Pods-TestWorkSiberian2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6EF3F6F92869F59200AC81F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E448658286CA5FD00D7F40A /* NetworkService.swift in Sources */,
 				6EF3F70B2869F59200AC81F9 /* TestWorkSiberian2.xcdatamodeld in Sources */,
 				6EF3F7052869F59200AC81F9 /* ViewController.swift in Sources */,
 				6EF3F7012869F59200AC81F9 /* AppDelegate.swift in Sources */,
+				6E197E8C286EDFD70025ED99 /* CurrentWeather.swift in Sources */,
 				6EF3F7032869F59200AC81F9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +364,7 @@
 		};
 		6EF3F7152869F59600AC81F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE97330B8D0E88A7F221076A /* Pods-TestWorkSiberian2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -316,6 +393,7 @@
 		};
 		6EF3F7162869F59600AC81F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819C57AD269CF6575272D80E /* Pods-TestWorkSiberian2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
